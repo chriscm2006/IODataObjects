@@ -2,7 +2,8 @@ package com.moba11y.ioserver;
 
 
 
-public class User {
+public class User extends GsonSerializable {
+
     public String email;
     public UserType type;
 
